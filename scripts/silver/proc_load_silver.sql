@@ -20,8 +20,6 @@ Usage Example:
 
 -- Do Transformations and load to Silver layer  --
 
-EXEC silver.load_silver
-
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
 	BEGIN TRY
